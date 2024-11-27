@@ -1,0 +1,58 @@
+# Matéria - 27/11
+
+## Importante: *Nome da classe pra acessar o banco -> SqliteOpenHelper*
+
+### Precisa de 04 parâmetros(o construtor):
+	- (ver no slide)
+
+## O diretório do banco é: /data/data/{package name}/ ver no slide
+
+## Importante: *O coração de todo app Android são as activities(são as telas, ou seja, arquivos em xml, que comunicam o usuário com as funcionalidades do app)*
+
+## Vantagens de bancos relacionais -> Integridade referencial
+
+## Desvantagens de bancos relacionais -> Performance
+
+## Tabela de Domínio:
+	- Tabelas que raramente recebem "inserts" no banco. São utilizadas, principalmente, para consultas.
+	- Ex.: No sistema do ceub tem uma tabela que guarda o tipo de usuário(coordenador de curso, professor, alunos, adm de ti, diretor,etc).
+
+# Revisão - Prova 04/11
+
+## Importante: *Desvantagens de bancos relacionais -> Performance*
+
+## Importante: *Nome da classe pra acessar o banco -> SqliteOpenHelper*
+
+
+## Linguagens trabalhadas:
+	- Java e *Kotlin + SQL(prova)*
+	- 2007 -> Iphone
+	- 2008 -> Android baseado no Linux com aplicativos em  Java
+	- 2017 -> Adoção do Kotlin junto ao Java(ambas linguagens compiladas) no Android
+	- Interoperabilidade com JVM
+
+## Importante: *O coração de todo app Android são as activities(são as telas, ou seja, arquivos em xml, que comunicam o usuário com as funcionalidades do app)*
+
+## Intents: Comunicam 2 activities
+	- 1: criar um objeto intent, com 2 parâmetros -> activity de origem(atual) e activity de destino(prxima página a ser aberta)
+	- 2: usar o método startactivity(objeto intent)
+
+## Importante: Na prova vai ter código com intents
+
+## BoilerPlate
+	- São trechos de código que o dev é obrigado a ter para que o ambiente/ a linguagem funcionem corretamente.
+	- Java tem mais boilerplate do que kotlin
+	- Kotlin foi criado como uma alternativa com menos boilerplate
+	- Menos boilerplate: cdigo mais fácil de ler e escrever
+## Importante: * data/data/packagename -> É o nome do sistema de arquivos do dispositivo que está sendo simulado. O banco é guardado no diretório data/data/packagename/databases.*
+
+## SQLite:
+	- simplicidade/facilidade + integridade referencial(chaves pk e fk)
+	- NÃO é um banco
+	- trabalha localmente
+	- é uma biblioteca escrita em C
+
+## Importante: *A casse SQLiteOpenHelper é nativa de android e comunica o kotlin com o sqlite*
+
+## Importante: *O código que vai cair na prova é select e intents*
+
